@@ -2,7 +2,7 @@ recipes:
 
 # base (required by sprout)
 - sprout-base
-- sprout-base::bash_it
+# - sprout-base::bash_it
 - sprout-base::homebrew
 - sprout-homebrew
 
@@ -10,8 +10,8 @@ recipes:
 - sprout-osx-settings
 - sprout-osx-settings::dock_preferences
 - sprout-terminal
-- sprout-terminal::update_font
-- sprout-ssh::known_hosts_github
+# - sprout-terminal::update_font
+# - sprout-ssh::known_hosts_github
 
 # development (general)
 - sprout-base::workspace_directory
@@ -23,8 +23,8 @@ recipes:
 # development (rails)
 - sprout-rbenv
 - sprout-ruby
-- sprout-mysql
-- sprout-postgresql
+# - sprout-mysql
+# - sprout-postgresql
 
 # apps
 - sprout-osx-apps::iterm2
