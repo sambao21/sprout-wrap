@@ -28,39 +28,39 @@ recipes:
 
 # apps
 - sprout-osx-apps::iterm2
-- sprout-osx-apps::flycut
-- sprout-osx-apps::shiftit
+#- sprout-osx-apps::flycut
+#- sprout-osx-apps::shiftit
 
 # apps (editors)
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
-- sprout-osx-apps::macvim
-- sprout-rubymine
+#- sprout-osx-apps::textmate_bundles
+#- sprout-osx-apps::textmate_preferences
+#- sprout-osx-apps::macvim
+#- sprout-rubymine
 
 node_attributes:
-  sprout:
-    git:
-      domain: pivotallabs.com
-      authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
-      projects:
-        -
-          name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
-    terminal:
-      default_profile: 'Pro'
-    settings:
-      clock_format: EEE MMM d  h:mm:ss a
+#  sprout:
+#    git:
+#      domain: pivotallabs.com
+#      authors:
+#        - initials: ah
+#          name: Abhijit Hiremagalur
+#          username: abhi
+#        - initials: bc
+#          name: Brian Cunnie
+#          username: cunnie
+#        - initials: jrhb
+#          name: Jonathan Barnes
+#        - initials: lw
+#          name: Luke Winikates
+#          username: lwinikates
+#      projects:
+#        -
+#          name: sprout-wrap
+#          url: https://github.com/pivotal-sprout/sprout-wrap.git
+#    terminal:
+#      default_profile: 'Pro'
+#    settings:
+#      clock_format: EEE MMM d  h:mm:ss a
     dock_preferences:
       orientation: 'left'
       auto_hide: true
@@ -70,21 +70,21 @@ node_attributes:
     homebrew:
       formulae:
         - ctags-exuberant
-        - ag
-        - chromedriver
+#        - ag
+#        - chromedriver
         - imagemagick
         - node
         - pstree
-        - qt
-        - ssh-copy-id
-        - tmux
-        - tree
-        - watch
+#        - qt
+#        - ssh-copy-id
+#        - tmux
+#        - tree
+#        - watch
         - wget
         - rbenv-binstubs
         - rbenv-gem-rehash
       casks:
-        - ccmenu
+#        - ccmenu
         - firefox
         - gitx-rowanj
         - github
@@ -92,8 +92,8 @@ node_attributes:
         - google-drive
         - google-hangouts
         - skype
-        - textmate
+#        - textmate
         - vagrant
         - virtualbox
-        - xquartz
-        - xscope
+#        - xquartz
+#        - xscope
